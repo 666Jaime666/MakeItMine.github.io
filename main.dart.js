@@ -19763,7 +19763,7 @@ _.c=null},
 Y8:function Y8(a){this.a=a},
 afu(a,b,c){var s=0,r=A.a3(t.N),q,p,o,n,m,l
 var $async$afu=A.a4(function(d,e){if(d===1)return A.a0(e,r)
-while(true)switch(s){case 0:o=A.eT("http://10.0.2.2:8080/login")
+while(true)switch(s){case 0:o=A.eT("http://94.227.29.171:8080/login")
 n=t.N
 m=A.as(["Content-Type","application/json"],n,n)
 s=3
@@ -19796,7 +19796,7 @@ ZT:function ZT(a){this.a=a},
 ZS:function ZS(){},
 ur(a,b){var s=0,r=A.a3(t.jh),q,p,o,n,m,l,k
 var $async$ur=A.a4(function(c,d){if(c===1)return A.a0(d,r)
-while(true)switch(s){case 0:p=A.eT("http://localhost:8080/swapRecipe")
+while(true)switch(s){case 0:p=A.eT("http://94.227.29.171:8080/swapRecipe")
 o=t.N
 n=A.as(["Content-Type","application/json","Authorization","Bearer "+$.S5],o,o)
 s=3
@@ -19807,16 +19807,16 @@ k=B.U.bT(0,l)
 s=B.c.A(l,"The Token has expired on")?4:5
 break
 case 4:s=6
-return A.a5(A.ap0(A.eT("http://localhost:8080/refreshToken"),A.as(["Authorization","Bearer "+$.aps],o,o)),$async$ur)
+return A.a5(A.ap0(A.eT("http://94.227.29.171:8080/refreshToken"),A.as(["Authorization","Bearer "+$.aps],o,o)),$async$ur)
 case 6:m=d
 s=m.b===200?7:8
 break
 case 7:$.S5=J.aF(B.U.bT(0,A.kM(A.kG(m.e).c.a.h(0,"charset")).bT(0,m.x)),"access_token")
-p=A.eT("http://localhost:8080/swapRecipe")
+p=A.eT("http://94.227.29.171:8080/swapRecipe")
 n=A.as(["Content-Type","application/json","Authorization","Bearer "+$.S5],o,o)
 s=9
 return A.a5(A.Se(p,B.U.kg(A.as(["text",a],o,o),null),n),$async$ur)
-case 9:n=A.eT("http://10.0.2.2:8080/swapRecipe")
+case 9:n=A.eT("http://94.227.29.171:8080/swapRecipe")
 p=A.as(["Content-Type","application/json","Authorization","Bearer "+$.S5],o,o)
 s=10
 return A.a5(A.Se(n,B.U.kg(A.as(["text",a],o,o),null),p),$async$ur)
